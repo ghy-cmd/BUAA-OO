@@ -1,0 +1,16 @@
+{"_parent":"AAAACRThERNVsnov5PzI","visibility":"protected","name":null,"_type":"UMLClass","_id":"AAAACRTvv6R8CHXqjper"}
+{"_parent":"AAAACRThERNVsnov5PzI","visibility":"protected","name":"interface0","_type":"UMLInterface","_id":"AAAACRTn1D2KJfNdvbBo"}
+{"_parent":"AAAACRThERNVsnov5PzI","visibility":"package","name":"interface1","_type":"UMLInterface","_id":"AAAACRTnHkUTkMtSVyHN"}
+{"_parent":"AAAACRThERNVsnov5PzI","name":null,"_type":"UMLGeneralization","_id":"AAAACRTsiYNYIOGVcRaU","source":"AAAACRTn1D2KJfNdvbBo","target":"AAAACRTnHkUTkMtSVyHN"}
+{"_parent":"AAAACRThERNVsnov5PzI","name":null,"_type":"UMLGeneralization","_id":"AAAACRTd48msE8v4nPTw","source":"AAAACRTn1D2KJfNdvbBo","target":"AAAACRTnHkUTkMtSVyHN"}
+{"_parent":"AAAACRTn1D2KJfNdvbBo","visibility":"private","name":"attribute","_type":"UMLAttribute","_id":"AAAACRTq4hGOItXQsLpm","type":"long"}
+{"_parent":"AAAACRTQrkt7NbP3oC2Z","visibility":"protected","name":"dO0MSTGpoD","_type":"UMLInteraction","_id":"AAAACRTLpCBNV9L9NRmP"}
+{"_parent":"AAAACRTLpCBNV9L9NRmP","visibility":"protected","name":"lifeline","_type":"UMLLifeline","isMultiInstance":true,"_id":"AAAACRTj8HIAlMw12ZQF","represent":null}
+{"_parent":"AAAACRThERNVsnov5PzI","name":"machine0","_type":"UMLStateMachine","_id":"AAAACRTjnRcjZASJdUR3"}
+{"_parent":"AAAACRTjnRcjZASJdUR3","visibility":"protected","name":"fEQbhFde3x","_type":"UMLRegion","_id":"AAAACRTqH9ypPrJTsIz9"}
+{"_parent":"AAAACRTqH9ypPrJTsIz9","visibility":"public","name":null,"_type":"UMLPseudostate","_id":"AAAACRTLPAc6qjCBFEmA"}
+{"_parent":"AAAACRTqH9ypPrJTsIz9","visibility":"private","name":null,"_type":"UMLFinalState","_id":"AAAACRTSAlOXsrE3d0nO"}
+{"_parent":"AAAACRTqH9ypPrJTsIz9","visibility":"private","name":null,"_type":"UMLTransition","_id":"AAAACRTnckb83LIjwnhO","source":"AAAACRTLPAc6qjCBFEmA","target":"AAAACRTSAlOXsrE3d0nO"}
+{"_parent":"AAAACRTqH9ypPrJTsIz9","visibility":"protected","name":"MJwsjlza2G","_type":"UMLTransition","_id":"AAAACRT9lTijAPeCS9QI","source":"AAAACRTLPAc6qjCBFEmA","target":"AAAACRTSAlOXsrE3d0nO"}
+END_OF_MODEL
+CLASS_OPERATION_COUNT R003

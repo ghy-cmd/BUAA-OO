@@ -1,0 +1,18 @@
+{"_parent":"AAAACRTiZ7DOQuLHuMvD","visibility":"private","name":"null","_type":"UMLClass","_id":"AAAACRTnZbqdRF1o9EcQ"}
+{"_parent":"AAAACRTiZ7DOQuLHuMvD","visibility":"protected","name":"null","_type":"UMLClass","_id":"AAAACRTqsdf4sCIRiN84"}
+{"_parent":"AAAACRTiZ7DOQuLHuMvD","visibility":"protected","name":null,"_type":"UMLClass","_id":"AAAACRTTfSsV47fhS51Q"}
+{"_parent":"AAAACRTiZ7DOQuLHuMvD","visibility":"package","name":"interface","_type":"UMLInterface","_id":"AAAACRT0d1jhlBEWUZbs"}
+{"_parent":"AAAACRTiZ7DOQuLHuMvD","name":"yWzOkgPKMp","_type":"UMLAssociation","end2":"AAAACRTY5a6ZewlrswGA","end1":"AAAACRTwZ5zmgtqXEw9i","_id":"AAAACRTRxZUoTEy1cqYm"}
+{"reference":"AAAACRTnZbqdRF1o9EcQ","multiplicity":"","_parent":"AAAACRTRxZUoTEy1cqYm","visibility":"package","name":"sameName","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAACRTwZ5zmgtqXEw9i"}
+{"reference":"AAAACRTnZbqdRF1o9EcQ","multiplicity":"","_parent":"AAAACRTRxZUoTEy1cqYm","visibility":"protected","name":"sameName","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAACRTY5a6ZewlrswGA"}
+{"_parent":"AAAACRTiZ7DOQuLHuMvD","name":"PnxeSYNk0O","_type":"UMLGeneralization","_id":"AAAACRT9dZoYxxbzk0fo","source":"AAAACRTqsdf4sCIRiN84","target":"AAAACRTqsdf4sCIRiN84"}
+{"_parent":"AAAACRT0d1jhlBEWUZbs","visibility":"private","name":"attribute","_type":"UMLAttribute","_id":"AAAACRTFwqOsOr1EIvoz","type":"char"}
+{"_parent":"AAAACRTeDd2eQfSDGiTK","visibility":"package","name":"kr2lY9BxVD","_type":"UMLInteraction","_id":"AAAACRTUI5LqYZMcWPFq"}
+{"_parent":"AAAACRTUI5LqYZMcWPFq","visibility":"protected","name":"lifeline","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAACRT19kncvZWgIJTo","represent":null}
+{"_parent":"AAAACRTiZ7DOQuLHuMvD","name":"machine0","_type":"UMLStateMachine","_id":"AAAACRT9UFHBM5md4sNw"}
+{"_parent":"AAAACRT9UFHBM5md4sNw","visibility":"public","name":"bXYHALk5ff","_type":"UMLRegion","_id":"AAAACRTFe5wbvM0yNTIu"}
+{"_parent":"AAAACRTFe5wbvM0yNTIu","visibility":"package","name":null,"_type":"UMLPseudostate","_id":"AAAACRTxbw7WGzJprx2a"}
+{"_parent":"AAAACRTFe5wbvM0yNTIu","visibility":"package","name":null,"_type":"UMLFinalState","_id":"AAAACRT8KGnsD6QiaLbf"}
+{"_parent":"AAAACRTFe5wbvM0yNTIu","visibility":"protected","guard":"guard","name":"42xuGckyHG","_type":"UMLTransition","_id":"AAAACRTLsDFAaOD9nGH7","source":"AAAACRTxbw7WGzJprx2a","target":"AAAACRT8KGnsD6QiaLbf"}
+END_OF_MODEL
+CLASS_OPERATION_COUNT R001

@@ -1,0 +1,4 @@
+input is:
+sin(x)*(+x*+78)+-sin(x)**+18*-93*sin(x)*cos(x)*-50
+expected ans:
+78*x*cos(x) + 4650*sin(x)**20 - 88350*sin(x)**18*cos(x)**2 + 78*sin(x)

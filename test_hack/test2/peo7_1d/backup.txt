@@ -1,0 +1,5 @@
+input is:
+-(-+((-+x**16*x*-36)-x**+3)*cos(x)**4*(cos(x)))*x*cos(x)
+
+expected ans:
+-x*(-612*x**16 + 3*x**2)*cos(x)**6 + 6*x*(-36*x**17 + x**3)*sin(x)*cos(x)**5 - (-36*x**17 + x**3)*cos(x)**6

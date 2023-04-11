@@ -1,0 +1,8 @@
+{"_parent":"AAAAAAACRTLUJXNQ8VRo","name":"machine0","_type":"UMLStateMachine","_id":"AAAAAAACRTxvxsk5Kevg"}
+{"_parent":"AAAAAAACRTxvxsk5Kevg","visibility":"public","name":"CFNNUl1gZ7","_type":"UMLRegion","_id":"AAAAAAACRTcAyc5YOl0z"}
+{"_parent":"AAAAAAACRTcAyc5YOl0z","visibility":"package","name":null,"_type":"UMLPseudostate","_id":"AAAAAAACRTZifr498HC4"}
+{"_parent":"AAAAAAACRTcAyc5YOl0z","visibility":"package","name":null,"_type":"UMLFinalState","_id":"AAAAAAACRTPdUa5xuOYU"}
+{"_parent":"AAAAAAACRTcAyc5YOl0z","visibility":"protected","name":"bgXTBSTC3c","_type":"UMLTransition","_id":"AAAAAAACRT038Zj8llOi","source":"AAAAAAACRTZifr498HC4","target":"AAAAAAACRTPdUa5xuOYU"}
+{"_parent":"AAAAAAACRTcAyc5YOl0z","visibility":"protected","name":"ss4nCMfQRB","_type":"UMLTransition","_id":"AAAAAAACRTBB5ABFFsed","source":"AAAAAAACRTZifr498HC4","target":"AAAAAAACRTPdUa5xuOYU"}
+END_OF_MODEL
+CLASS_OPERATION_COUNT R008

@@ -1,0 +1,8 @@
+{"_parent":"AAAAACRTrks0j5oprAck","name":"machine0","_type":"UMLStateMachine","_id":"AAAAACRTjmeXMlJFDltT"}
+{"_parent":"AAAAACRTjmeXMlJFDltT","visibility":"protected","name":"YDoBOnvi2W","_type":"UMLRegion","_id":"AAAAACRTvUZ8KfSZNbQV"}
+{"_parent":"AAAAACRTvUZ8KfSZNbQV","visibility":"package","name":null,"_type":"UMLPseudostate","_id":"AAAAACRT5TKCFeXyF5Qx"}
+{"_parent":"AAAAACRTvUZ8KfSZNbQV","visibility":"package","name":null,"_type":"UMLFinalState","_id":"AAAAACRTeFVZbRwl8N0G"}
+{"_parent":"AAAAACRTvUZ8KfSZNbQV","visibility":"protected","name":null,"_type":"UMLTransition","_id":"AAAAACRTIuDMwViWidbu","source":"AAAAACRT5TKCFeXyF5Qx","target":"AAAAACRTeFVZbRwl8N0G"}
+{"_parent":"AAAAACRTIuDMwViWidbu","expression":"BEkb7WPAY1","visibility":"private","name":"event","_type":"UMLEvent","_id":"AAAAACRTzA6kkaVhNIOV","value":"SRbjLf15yD"}
+END_OF_MODEL
+CLASS_OPERATION_COUNT R008

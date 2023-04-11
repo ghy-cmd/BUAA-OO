@@ -1,0 +1,7 @@
+{"_parent":"AAAAACRTyF9y1l1FC7K1","name":"machine0","_type":"UMLStateMachine","_id":"AAAAACRTbYMaVwLKoeX9"}
+{"_parent":"AAAAACRTbYMaVwLKoeX9","visibility":"private","name":"4f8u8xO2yb","_type":"UMLRegion","_id":"AAAAACRTbUrVvkxYRXHJ"}
+{"_parent":"AAAAACRTbUrVvkxYRXHJ","visibility":"private","name":null,"_type":"UMLPseudostate","_id":"AAAAACRT0nQfuWlAwCER"}
+{"_parent":"AAAAACRTbUrVvkxYRXHJ","visibility":"package","name":null,"_type":"UMLFinalState","_id":"AAAAACRTrqivNFFBeqi3"}
+{"_parent":"AAAAACRTbUrVvkxYRXHJ","visibility":"protected","guard":"guard","name":"MJrvhOGGcL","_type":"UMLTransition","_id":"AAAAACRTKMOH6LEuLDD1","source":"AAAAACRT0nQfuWlAwCER","target":"AAAAACRTrqivNFFBeqi3"}
+END_OF_MODEL
+CLASS_OPERATION_COUNT R008

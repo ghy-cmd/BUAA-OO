@@ -1,0 +1,12 @@
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+*.class
+*.pyc
+*.so
+*.exe
+
+*.iml
+*.idea
+*.gradle

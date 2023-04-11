@@ -1,0 +1,130 @@
+package task3;
+
+import java.util.Scanner;
+
+public class MainClass {
+    public static void main(String[] argv) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int m = scanner.nextInt();
+        booklist lib[] = new booklist[2100];
+        for (int i = 1; i <= n; i++) {
+            lib[i] = new booklist();
+        }
+        int i;
+        for (i = 0; i < m; i++) {
+            int type = scanner.nextInt();
+            switch (type) {
+                case (1):
+                    int attribute = scanner.nextInt();
+                    String name = scanner.next();
+                    for (Bookset item : lib[attribute].booksArrayList) {
+                        if (name.equals(item.getName())) {
+                            if (item.getTypeName().equals("Other")) {
+                                System.out.println(item.getName() + " " + item.getPrice() + " " + item.getNum());
+                            } else if (item.getTypeName().equals("OtherA")) {
+                                OtherA a = (OtherA) item;
+                                System.out.println(item.getName() + " " + item.getPrice() + " " + item.getNum() + " " + a.getAge());
+                            } else if (item.getTypeName().equals("Novel")) {
+                                Novel a = (Novel) item;
+                                System.out.println(a.getName() + " " + a.getPrice() + " " + a.getNum() + " " + a.getAge() + " " + a.isFinish());
+                            } else if (item.getTypeName().equals("Poetry")) {
+                                Peotry a = (Peotry) item;
+                                System.out.println(a.getName() + " " + a.getPrice() + " " + a.getNum() + " " + a.getAge() + " " + a.getAuthor());
+                            } else if (item.getTypeName().equals("OtherS")) {
+                                OtherS a = (OtherS) item;
+                                System.out.println(a.getName() + " " + a.getPrice() + " " + a.getNum() + " " + a.getYear());
+                            } else if (item.getTypeName().equals("Math")) {
+                                Math a = (Math) item;
+                                System.out.println(a.getName() + " " + a.getPrice() + " " + a.getNum() + " " + a.getYear() + " " + a.getGrade());
+                            } else if (item.getTypeName().equals("Computer")) {
+                                Computer a = (Computer) item;
+                                System.out.println(a.getName() + " " + a.getPrice() + " " + a.getNum() + " " + a.getYear() + " " + a.getMajor());
+                            }
+                        }
+                    }
+                    break;
+                case (2):
+                    attribute = scanner.nextInt();
+                    System.out.println(lib[attribute].getTypenum());
+                    break;
+                case (3):
+                    attribute = scanner.nextInt();
+                    System.out.println(lib[attribute].getTotalnum());
+                    break;
+                case (4):
+                    attribute = scanner.nextInt();
+                    String belong = scanner.next();
+                    if (belong.equals("Other")) {
+                        name = scanner.next();
+                        double price = scanner.nextDouble();
+                        long num = scanner.nextLong();
+                        Other book = new Other(name, price, num, belong);
+                        lib[attribute].booksArrayList.add(book);
+                    } else if (belong.equals("OtherA")) {
+                        name = scanner.next();
+                        double price = scanner.nextDouble();
+                        long num = scanner.nextLong();
+                        long age = scanner.nextLong();
+                        OtherA book = new OtherA(name, price, num, belong, age);
+                        lib[attribute].booksArrayList.add(book);
+                    } else if (belong.equals("Novel")) {
+                        name = scanner.next();
+                        double price = scanner.nextDouble();
+                        long num = scanner.nextLong();
+                        long age = scanner.nextLong();
+                        boolean finish = scanner.nextBoolean();
+                        Novel book = new Novel(name, price, num, belong, age, finish);
+                        lib[attribute].booksArrayList.add(book);
+                    } else if (belong.equals("Poetry")) {
+                        name = scanner.next();
+                        double price = scanner.nextDouble();
+                        long num = scanner.nextLong();
+                        long age = scanner.nextLong();
+                        String author = scanner.next();
+                        Peotry book = new Peotry(name, price, num, belong, age, author);
+                        lib[attribute].booksArrayList.add(book);
+                    } else if (belong.equals("OtherS")) {
+                        name = scanner.next();
+                        double price = scanner.nextDouble();
+                        long num = scanner.nextLong();
+                        long year = scanner.nextLong();
+                        OtherS book = new OtherS(name, price, num, belong, year);
+                        lib[attribute].booksArrayList.add(book);
+                    } else if (belong.equals("Math")) {
+                        name = scanner.next();
+                        double price = scanner.nextDouble();
+                        long num = scanner.nextLong();
+                        long year = scanner.nextLong();
+                        long grade = scanner.nextLong();
+                        Math book = new Math(name, price, num, belong, year, grade);
+                        lib[attribute].booksArrayList.add(book);
+                    } else if (belong.equals("Computer")) {
+                        name = scanner.next();
+                        double price = scanner.nextDouble();
+                        long num = scanner.nextLong();
+                        long year = scanner.nextLong();
+                        String major = scanner.next();
+                        Computer book = new Computer(name, price, num, belong, year, major);
+                        lib[attribute].booksArrayList.add(book);
+                    }
+                    break;
+                case (5):
+                    attribute = scanner.nextInt();
+                    name = scanner.next();
+                    int k = 0;
+                    for (Bookset item : lib[attribute].booksArrayList) {
+                        if (name.equals(item.getName()))
+                            break;
+                        k++;
+                    }
+                    lib[attribute].booksArrayList.remove(k);
+                    System.out.println(lib[attribute].getTotalnum());
+                    break;
+                default:
+                    break;
+            }
+        }
+
+    }
+}

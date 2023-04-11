@@ -1,0 +1,18 @@
+{"_parent":"AAACRTcJWeeMIltj5Kqq","visibility":"public","name":"class","_type":"UMLClass","_id":"AAACRT3IZZiLhCd7OONX"}
+{"_parent":"AAACRTcJWeeMIltj5Kqq","visibility":"public","name":null,"_type":"UMLClass","_id":"AAACRT1LO4isLp8y9zUS"}
+{"_parent":"AAACRTcJWeeMIltj5Kqq","visibility":"public","name":"interface0","_type":"UMLInterface","_id":"AAACRTueaYxDFPDoPz4c"}
+{"_parent":"AAACRTcJWeeMIltj5Kqq","visibility":"public","name":"interface1","_type":"UMLInterface","_id":"AAACRTsWD2u5HYDdCUPc"}
+{"_parent":"AAACRTcJWeeMIltj5Kqq","name":null,"_type":"UMLInterfaceRealization","_id":"AAACRTgjHNeaVsITSlnS","source":"AAACRT3IZZiLhCd7OONX","target":"AAACRTueaYxDFPDoPz4c"}
+{"_parent":"AAACRTcJWeeMIltj5Kqq","name":null,"_type":"UMLInterfaceRealization","_id":"AAACRTXPeMBAANvDeKI1","source":"AAACRT3IZZiLhCd7OONX","target":"AAACRTsWD2u5HYDdCUPc"}
+{"_parent":"AAACRTcJWeeMIltj5Kqq","name":null,"_type":"UMLGeneralization","_id":"AAACRTbwcXZ4PMa136tr","source":"AAACRT3IZZiLhCd7OONX","target":"AAACRT1LO4isLp8y9zUS"}
+{"_parent":"AAACRTcJWeeMIltj5Kqq","name":"FtEZtD65L2","_type":"UMLGeneralization","_id":"AAACRTqqX6uPIQy92dmE","source":"AAACRTueaYxDFPDoPz4c","target":"AAACRTsWD2u5HYDdCUPc"}
+{"_parent":"AAACRTueaYxDFPDoPz4c","visibility":"private","name":"attribute","_type":"UMLAttribute","_id":"AAACRTNoy0qtif61PajG","type":"bool"}
+{"_parent":"AAACRTknlT9ltPsmJiqj","visibility":"protected","name":"DiKmxTU8Pl","_type":"UMLInteraction","_id":"AAACRTUIgau7D9WpnX4z"}
+{"_parent":"AAACRTUIgau7D9WpnX4z","visibility":"package","name":"lifeline","_type":"UMLLifeline","isMultiInstance":true,"_id":"AAACRTeuiyjqhcqBDepc","represent":"AAACRT3IZZiLhCd7OONX"}
+{"_parent":"AAACRTcJWeeMIltj5Kqq","name":"machine0","_type":"UMLStateMachine","_id":"AAACRTYeLJbFzkOLA5O7"}
+{"_parent":"AAACRTYeLJbFzkOLA5O7","visibility":"package","name":"3Y1H3gYcOq","_type":"UMLRegion","_id":"AAACRTdta190EBky1IC4"}
+{"_parent":"AAACRTdta190EBky1IC4","visibility":"package","name":null,"_type":"UMLPseudostate","_id":"AAACRTDTOtJihr7A6B48"}
+{"_parent":"AAACRTdta190EBky1IC4","visibility":"protected","name":null,"_type":"UMLFinalState","_id":"AAACRTJ2PSZKgcD81id1"}
+{"_parent":"AAACRTdta190EBky1IC4","visibility":"protected","guard":"guard","name":null,"_type":"UMLTransition","_id":"AAACRTWFjWrWOq4FrmTo","source":"AAACRTDTOtJihr7A6B48","target":"AAACRTJ2PSZKgcD81id1"}
+END_OF_MODEL
+CLASS_OPERATION_COUNT R004
